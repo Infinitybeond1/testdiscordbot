@@ -1,0 +1,16 @@
+{
+  "name": "testBot",
+  "version": "1.0.0",
+  "description": "A simple test discord bot",
+  "main": "index.js",
+  "author": "Akari",
+  "license": "GPL3",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "lmdb": "^2.8.2"
+  }
+}
